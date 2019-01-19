@@ -1,0 +1,89 @@
+<widget id="A6055704847972" version="1.6.2">
+
+    <name>test</name>
+
+    <description></description>
+
+    <author email="leezw03@163.com" href="http://www.anewbegin.com/"></author>
+
+    <content src="index.html"/>
+
+    <access origin="*"/>
+
+    <preference name="urlScheme" value="lmyhapp"/>
+
+    <preference name="pageBounce" value="false"/>
+
+    <preference name="appBackground" value="#f7f7f8"/>
+
+    <preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
+
+    <preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+
+    <preference name="hScrollBarEnabled" value="true"/>
+
+    <preference name="vScrollBarEnabled" value="true"/>
+
+    <preference name="autoLaunch" value="true"/>
+
+    <preference name="fullScreen" value="false"/>
+
+    <preference name="autoUpdate" value="true"/>
+
+    <preference name="smartUpdate" value="true"/>
+
+    <preference name="debug" value="false"/>
+
+    <preference name="iOS7StatusBarAppearance" value="true" />
+
+    <preference name="statusBarAppearance" value="true"/>
+
+    <preference name="customRefreshHeader" value="UIPullRefresh"/>
+
+    <permission name="readPhoneState"/>
+
+    <permission name="camera"/>
+
+    <permission name="record"/>
+
+    <permission name="location"/>
+
+    <permission name="fileSystem"/>
+
+    <permission name="internet"/>
+
+    <permission name="bootCompleted"/>
+
+    <permission name="hardware"/>
+
+    <preference name="softInputMode" value="auto"/>
+
+    <preference name="backgroundMode" value="remote-notification"/>
+
+    <feature name="wx">
+        <param name="urlScheme" value="wx4c5720d154c5109f"/>
+        <param name="apiKey" value="wx4c5720d154c5109f"/>
+        <param name="apiSecret" value="4574ac691127924056e5d3eb4417cea3"/>
+    </feature>
+
+    <feature name="wxPay">
+        <param name="urlScheme" value="wx4c5720d154c5109f"/>
+        <param name="apiKey" value="wx4c5720d154c5109f"/>
+        <param name="apiSecret" value="4574ac691127924056e5d3eb4417cea3"/>
+    </feature>
+
+    <feature name="aliPay">
+        <param name="urlScheme" value="AliPayA6944776416178"/>
+    </feature>
+
+    <feature name="ajpush">
+        <param name="app_key" value="40c16cf5375f6cd70f5b6d97"/>
+        <param name="channel" value="apicloud"/>
+    </feature>
+
+    <feature name="SuperID">
+        <param name="AppID" value="427c19456b118e0161e487d9" />
+        <param name="AppSecret" value="3447e55f6a71fc5ce7d1171f" />
+    </feature>
+
+</widget>
