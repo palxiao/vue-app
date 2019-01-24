@@ -8,7 +8,17 @@ Vue.config.productionTip = false
 
 FastClick.attach(document.body)
 
-window.apiready = function () {
+const isApp = 0
+
+if (isApp) {
+  window.apiready = function () {
+    new Vue({
+      router,
+      store,
+      render: h => h(App)
+    }).$mount('#app')
+  }
+} else {
   new Vue({
     router,
     store,

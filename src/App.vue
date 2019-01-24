@@ -15,23 +15,62 @@ export default {
     return {};
   },
   components: {},
-  created() {},
+  created() {
+    // var FNImageClip = api.require("FNImageClip");
+    // FNImageClip.open(
+    //   {
+    //     rect: {
+    //       x: 0,
+    //       y: 0,
+    //       w: api.winWidth,
+    //       h: api.winHeight
+    //     },
+    //     srcPath: "widget://img/logo.png",
+    //     style: {
+    //       mask: "#888",
+    //       clip: {
+    //         w: 100,
+    //         h: 100,
+    //         x: 50,
+    //         y: 50,
+    //         borderColor: "#0f0",
+    //         borderWidth: 1,
+    //         appearance: "rectangle"
+    //       }
+    //     },
+    //     fixedOn: api.frameName
+    //   },
+    //   function(ret, err) {
+    //     if (ret) {
+    //       console.log(JSON.stringify(ret));
+    //     } else {
+    //       console.log(JSON.stringify(err));
+    //     }
+    //   }
+    // );
+    // try {
+    //   var wx = api.require("wx");
+    //   wx.auth({}, function(ret, err) {
+    //     if (ret.status) {
+    //       alert(JSON.stringify(ret));
+    //     } else {
+    //       alert(err.code);
+    //     }
+    //   });
+    // } catch (error) {}
+    
+  },
   activated() {},
   mounted() {
     this.$nextTick(() => {});
   },
   computed: {},
   watch: {},
-  methods: {
-    
-  }
+  methods: {}
 };
 </script>
 
 <style>
-body {
-  background-color: white;
-}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -40,7 +79,7 @@ body {
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  padding-top: 30px;
 }
 
 #nav a {

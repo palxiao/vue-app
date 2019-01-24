@@ -1,16 +1,16 @@
-<widget id="A6055704847972" version="1.6.2">
+<widget id="A6092109904195" version="1.0">
 
     <name>test</name>
 
     <description></description>
 
-    <author email="leezw03@163.com" href="http://www.anewbegin.com/"></author>
+    <author email="shawnphang@163.com" href="http://palxp.com/"></author>
 
     <content src="index.html"/>
 
     <access origin="*"/>
 
-    <preference name="urlScheme" value="lmyhapp"/>
+    <preference name="urlScheme" value="vue-app"/>
 
     <preference name="pageBounce" value="false"/>
 
@@ -60,10 +60,15 @@
 
     <preference name="backgroundMode" value="remote-notification"/>
 
-    <feature name="wx">
-        <param name="urlScheme" value="wx4c5720d154c5109f"/>
-        <param name="apiKey" value="wx4c5720d154c5109f"/>
-        <param name="apiSecret" value="4574ac691127924056e5d3eb4417cea3"/>
+     <feature name="wx">
+    <param name="urlScheme" value="wxd0d84bbf23b4a0e4"/>
+    <param name="apiKey" value="wxd0d84bbf23b4a0e4"/>
+    <param name="apiSecret" value="a354f72aa1b4c2b8eaad137ac81434cd"/>
+  </feature>
+
+     <feature name="bMap">
+        <param name="android_api_key" value="YIfzaGumFKk23yBCpSux97n3YgKLaBC5" />
+        <param name="ios_api_key" value="MV0A5YiO4a8BB4fBbrbV7Z1P6fnTCbtU" />
     </feature>
 
     <feature name="wxPay">
